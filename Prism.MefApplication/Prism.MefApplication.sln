@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prism.MefApplication", "Pri
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prism.MefApplication.Common", "Prism.MefApplication.Common\Prism.MefApplication.Common.csproj", "{6B85E893-CB21-46A9-AA08-9F6CAB1741C6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prism.MefApplication.Modules.SimpleTextBlockModule", "Prism.MefApplication.Modules.SimpleTextBlockModule\Prism.MefApplication.Modules.SimpleTextBlockModule.csproj", "{2C2B9740-8C5F-4B78-825B-C9EE37FBBB6B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{6B85E893-CB21-46A9-AA08-9F6CAB1741C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B85E893-CB21-46A9-AA08-9F6CAB1741C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B85E893-CB21-46A9-AA08-9F6CAB1741C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C2B9740-8C5F-4B78-825B-C9EE37FBBB6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C2B9740-8C5F-4B78-825B-C9EE37FBBB6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C2B9740-8C5F-4B78-825B-C9EE37FBBB6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C2B9740-8C5F-4B78-825B-C9EE37FBBB6B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
