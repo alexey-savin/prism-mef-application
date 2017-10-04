@@ -1,4 +1,5 @@
 ﻿using Prism.Mef;
+using System.ComponentModel.Composition.Hosting;
 using System.Windows;
 
 namespace Prism.MefApplication
@@ -16,6 +17,14 @@ namespace Prism.MefApplication
 
             Application.Current.MainWindow = (Window)Shell;
             Application.Current.MainWindow.Show();
+        }
+
+        protected override void ConfigureAggregateCatalog()
+        {
+            base.ConfigureAggregateCatalog();
+
+            AggregateCatalog.Catalogs.Add(new AssemblyCatalog(typeof(Bootstrapper).Assembly));
+            AggregateCatalog.Catalogs.Add(new DirectoryCatalog("Modules"));
         }
     }
 }
