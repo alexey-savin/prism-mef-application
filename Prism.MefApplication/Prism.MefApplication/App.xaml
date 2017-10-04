@@ -1,8 +1,7 @@
-﻿<Application x:Class="Prism.Mef.Application.App"
+﻿<Application x:Class="Prism.MefApplication.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:Prism.Mef.Application"
-             StartupUri="MainWindow.xaml">
+             xmlns:local="clr-namespace:Prism.MefApplication">
     <Application.Resources>
          
     </Application.Resources>

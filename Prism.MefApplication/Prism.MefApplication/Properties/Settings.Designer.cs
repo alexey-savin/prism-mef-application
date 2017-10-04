@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Prism.Mef.Application.Properties
+namespace Prism.MefApplication.Properties
 {
 
 
